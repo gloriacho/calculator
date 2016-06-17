@@ -13,6 +13,9 @@
 		CC72FA631D1140B800DA71C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC72FA611D1140B800DA71C7 /* Main.storyboard */; };
 		CC72FA651D1140B800DA71C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC72FA641D1140B800DA71C7 /* Assets.xcassets */; };
 		CC72FA681D1140B800DA71C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC72FA661D1140B800DA71C7 /* LaunchScreen.storyboard */; };
+		CC72FA731D1239D000DA71C7 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72FA701D1239D000DA71C7 /* Calculator.m */; };
+		CC72FA741D1239D000DA71C7 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72FA721D1239D000DA71C7 /* Fraction.m */; };
+		CC72FA771D1285FE00DA71C7 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72FA761D1285FE00DA71C7 /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		CC72FA641D1140B800DA71C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC72FA671D1140B800DA71C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC72FA691D1140B800DA71C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC72FA6F1D1239D000DA71C7 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CC72FA701D1239D000DA71C7 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CC72FA711D1239D000DA71C7 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CC72FA721D1239D000DA71C7 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		CC72FA751D1285FE00DA71C7 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CC72FA761D1285FE00DA71C7 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,10 @@
 		CC72FA571D1140B800DA71C7 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CC72FA6F1D1239D000DA71C7 /* Calculator.h */,
+				CC72FA701D1239D000DA71C7 /* Calculator.m */,
+				CC72FA711D1239D000DA71C7 /* Fraction.h */,
+				CC72FA721D1239D000DA71C7 /* Fraction.m */,
 				CC72FA5B1D1140B800DA71C7 /* AppDelegate.h */,
 				CC72FA5C1D1140B800DA71C7 /* AppDelegate.m */,
 				CC72FA5E1D1140B800DA71C7 /* ViewController.h */,
@@ -67,6 +80,8 @@
 				CC72FA661D1140B800DA71C7 /* LaunchScreen.storyboard */,
 				CC72FA691D1140B800DA71C7 /* Info.plist */,
 				CC72FA581D1140B800DA71C7 /* Supporting Files */,
+				CC72FA751D1285FE00DA71C7 /* InfoViewController.h */,
+				CC72FA761D1285FE00DA71C7 /* InfoViewController.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -105,6 +120,18 @@
 		CC72FA4D1D1140B800DA71C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "MF839-016";
 				TargetAttributes = {
@@ -150,8 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC72FA601D1140B800DA71C7 /* ViewController.m in Sources */,
+				CC72FA731D1239D000DA71C7 /* Calculator.m in Sources */,
+				CC72FA771D1285FE00DA71C7 /* InfoViewController.m in Sources */,
 				CC72FA5D1D1140B800DA71C7 /* AppDelegate.m in Sources */,
 				CC72FA5A1D1140B800DA71C7 /* main.m in Sources */,
+				CC72FA741D1239D000DA71C7 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
