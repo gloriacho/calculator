@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Calculator.h"
-
+#import "ThirdViewController.h"
 
 @interface ViewController ()
 
@@ -204,9 +204,9 @@
 
 - (IBAction)openNewView:(UIButton *)sender {
     
-    [self performSegueWithIdentifier:@"view1" sender:self];//
+    [self performSegueWithIdentifier:@"view2" sender:self];//
     
-    NSLog(@"view1");
+    //NSLog(@"view1");
     
 }
 
@@ -221,6 +221,16 @@
         InfoViewController *infoView = [segue destinationViewController];
         infoView.myString = @"Hello World";
     }
+    else if([segue.identifier isEqualToString:@"view2"])
+    {
+        ThirdViewController *thirdView = [segue destinationViewController];
+        [thirdView changeColorFunc : ^(UIColor *newColor)
+         {
+             [self.view setBackgroundColor:newColor];
+             //[self changeColor:newColor];
+         }];
+    }
+
 }
 
 - (void) SetButtonEnabled: (BOOL) b
